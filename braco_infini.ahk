@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Ignore
+#UseHook
 
 if !A_IsAdmin {
     try {
@@ -14,7 +15,7 @@ OnExit(AppExit)
 
 global isBlocked := false
 
-F9:: {
+$^F9:: {
     global isBlocked
     if !isBlocked {
         RunWait('netsh advfirewall firewall add rule name="GTA Bloque Sauvegarde Braquage" dir=out action=block remoteip=192.81.241.171', , "Hide")
