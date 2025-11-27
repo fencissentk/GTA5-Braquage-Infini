@@ -10,10 +10,15 @@
 
 ## Utilisation
 - Lancer le script, une icône AHK verte apparaît dans la barre des tâches.
-- Tester que lorsque vous appuyez sur F9 un message apparaît en haut de votre écran. (La touche peut être modifiée dans le script facilement)
+- Tester que lorsque vous appuyez sur Ctrl + F9 un message apparaît en haut de votre écran. (La touche peut être modifiée dans le script facilement)
 - Lancer le braquage avec le blocage désactivé.
-- Avant de livrer l'objectif sur le casino ou de quitter l'île sur cayo, activez le blocage (F9).
+- Avant de livrer l'objectif sur le casino ou de quitter l'île sur cayo, activez le blocage (Ctrl + F9).
 - Attendez le retour en mode libre puis retournez en mode histoire.
-- Une fois bien chargé en mode histoire vous pouvez désactiver le blocage (F9) et retourner en mode en ligne.
+- Une fois bien chargé en mode histoire vous pouvez désactiver le blocage (Ctrl + F9) et retourner en mode en ligne.
+
 Et voilà ! Vous avez l'argent et le braquage toujours prêt.
 Petite astuce, pour faire partir l'erreur de sauvegarde une fois revenu en online changez votre tenue, ça forcera une sauvegarde.
+
+## Customisation
+Vous pouvez modifier dans le script la touche utilisée pour déclencher le blocage. Changez ^F9 par ce que vous voulez.
+Le signe ^ indique Ctrl. Il faut laisser le signe $ car il permet au script de pouvoir détecter la touche avec moins de problèmes.
